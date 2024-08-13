@@ -1,0 +1,21 @@
+说明：
+
+请先确保了解现代控制理论的状态空间法以及Euler法、龙格库塔法等ODE solver（积分器），理解状态空间离散化。
+
+因发现视频所记笔记有一些错误，后在笔记中修改，请对照附件中的PDF版笔记看视频，不同之处请以笔记为准。
+
+本培训内容因团队水平限制，若发现很多不严谨的地方以及其他错误，请大家谅解。
+
+本视频主要参考附件中的凸优化书和论文，以及CMU的最优控制课（可以直接在b站搜到，讲的非常好）。
+
+只想了解和使用我们现有四足框架（即MIT开源方案）的同学可以只看视频1并参考以下资料：
+Dynamic Locomotion in the MIT Cheetah 3 Through Convex Model-Predictive Control.
+
+若有志于提高我们团队实力，希望后续部署ocs2的质心动力学或crocoddyl的全动力学等复杂方案，可以参考视频2以及以下资料：
+Fast Direct Multiple Shooting Algorithms for Optimal Robot Control.
+A Family of Iterative Gauss-Newton Shooting Methods for Nonlinear Optimal Control.
+A Unified MPC Framework for Whole-Body Dynamic Locomotion and Manipulation.
+Crocoddyl: An efficient and versatile framework for multi-contact optimal control.
+
+请先尽量完成作业再看答案。作业3为本人以前做的一个小车倒立摆（cartpole）的起摆demo，不需要提交，
+请按照README.md文件自行安装依赖和编译，因本人水平有限，代码不规范之处请轻喷。
